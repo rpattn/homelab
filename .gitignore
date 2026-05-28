@@ -16,3 +16,49 @@
 # Log files created by default by the nohup command
 nohup.out
 
+# Compiled files
+*.o
+*.so
+*.a
+*.out
+*.class
+*.pyc
+*.pyo
+__pycache__/
+
+# Package managers
+node_modules/
+vendor/
+
+# Build output
+dist/
+build/
+target/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env / secrets
+.env
+.env.*
+*.pem
+*.key
+*.cert
+
+# Logs
+*.log
+logs/
+
+# Temp
+*.tmp
+*.bak
+tmp/

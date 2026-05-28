@@ -1,0 +1,24 @@
+controller:
+  replicaCount: 1
+
+  resources:
+    requests:
+      cpu: 100m
+      memory: 128Mi
+    limits:
+      cpu: 500m
+      memory: 512Mi
+
+  # Required for k3s - use host network for ingress
+  hostNetwork: false
+
+  service:
+    type: LoadBalancer
+    annotations: {}
+
+  admissionWebhooks:
+    enabled: true
+
+  metrics:
+    enabled: false
+
